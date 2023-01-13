@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f204997e-aeef-4801-9a26-d97e0b56deb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673622046859</updated>
-      <workItem from="1673622049244" duration="9743000" />
+      <workItem from="1673622049244" duration="10781000" />
     </task>
     <task id="LOCAL-00001" summary="Relation One-To-One in Hibernate">
       <created>1673632297554</created>
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673632297554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Relation One-To-One in Hibernate - optimization">
+      <created>1673641799552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673641799552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Relation One-To-One in Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation One-To-One in Hibernate" />
+    <MESSAGE value="Relation One-To-One in Hibernate - optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation One-To-One in Hibernate - optimization" />
   </component>
 </project>
