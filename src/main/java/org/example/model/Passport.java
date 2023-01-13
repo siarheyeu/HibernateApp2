@@ -21,8 +21,7 @@ public class Passport implements Serializable {
 
     }
 
-    public Passport(Person person, int passportNumber) {
-        this.person = person;
+    public Passport(int passportNumber) {
         this.passportNumber = passportNumber;
     }
 
@@ -40,6 +39,7 @@ public class Passport implements Serializable {
 
     public void setPassportNumber(int passportNumber) {
         this.passportNumber = passportNumber;
+
     }
 
     @Override

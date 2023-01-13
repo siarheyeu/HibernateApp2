@@ -25,6 +25,10 @@ public class Person {
     private int age;
 
 
+    @OneToOne(mappedBy = "person")
+    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    private Passport passport;
+
 
     public Person(){
 
@@ -59,11 +63,14 @@ public class Person {
         this.age = age;
     }
 
-    public List<Item> getItems() {
-        return items;
+    public Passport getPassport() {
+        return passport;
     }
 
-
+    public void setPassport(Passport passport) {
+        this.passport = passport;
+        passport.setPerson(this);
+    }
 
     @Override
     public String toString() {
