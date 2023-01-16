@@ -3,9 +3,7 @@ package org.example.model;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
-
-
-
+import java.util.List;
 
 
 @Entity
@@ -23,8 +21,16 @@ public class Movie {
     @Column (name = "year_of_production")
     private int yearOfProduction;
 
+    @ManyToMany(mappedBy = "movies")
+    private List<Actor> actors;
+
     public Movie(){
 
+    }
+
+    public Movie(String name, int yearOfProduction) {
+        this.name = name;
+        this.yearOfProduction = yearOfProduction;
     }
 
     public String getName() {
@@ -41,6 +47,15 @@ public class Movie {
 
     public void setYearOfProduction(int yearOfProduction) {
         this.yearOfProduction = yearOfProduction;
+    }
+
+
+    public List<Actor> getActors() {
+        return actors;
+    }
+
+    public void setActors(List<Actor> actors) {
+        this.actors = actors;
     }
 
     @Override

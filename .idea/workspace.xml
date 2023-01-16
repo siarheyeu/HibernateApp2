@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f204997e-aeef-4801-9a26-d97e0b56deb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <updated>1673622046859</updated>
       <workItem from="1673622049244" duration="10804000" />
       <workItem from="1673694580442" duration="791000" />
-      <workItem from="1673885312272" duration="4649000" />
+      <workItem from="1673885312272" duration="6307000" />
     </task>
     <task id="LOCAL-00001" summary="Relation One-To-One in Hibernate">
       <created>1673632297554</created>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673642614560</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Relation Many-To-Many in Hibernate">
+      <created>1673896143615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673896143615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +120,7 @@
     <MESSAGE value="Relation One-To-One in Hibernate" />
     <MESSAGE value="Relation One-To-One in Hibernate - optimization" />
     <MESSAGE value="Relation One-To-One in Hibernate - final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation One-To-One in Hibernate - final" />
+    <MESSAGE value="Relation Many-To-Many in Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation Many-To-Many in Hibernate" />
   </component>
 </project>

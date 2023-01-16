@@ -19,7 +19,7 @@ public class Actor {
     private String name;
 
     @Column (name = "age")
-    private String age;
+    private int age;
 
     @ManyToMany
     @JoinTable(
@@ -34,6 +34,11 @@ public class Actor {
 
     }
 
+    public Actor(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
@@ -42,11 +47,11 @@ public class Actor {
         this.name = name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
