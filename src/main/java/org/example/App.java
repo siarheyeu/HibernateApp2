@@ -6,6 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -27,8 +28,14 @@ public class App
             Session session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Movie movie = session.get(Movie.class, 1);
-            System.out.println(movie.getActors());
+            Movie movie = new Movie("Reservoir dogs", 1992);
+            Actor actor = session.get(Actor.class, 1);
+
+            movie.setActors(new ArrayList<>(Collections.singletonList(actor)));
+
+            actor.getMovies().add(movie);
+
+            session.save(movie);
 
 
             session.getTransaction().commit();
