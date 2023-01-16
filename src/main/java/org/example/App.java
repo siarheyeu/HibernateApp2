@@ -1,7 +1,6 @@
 package org.example;
 
-import org.example.model.Passport;
-import org.example.model.Person;
+import org.example.model.Movie;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -13,7 +12,7 @@ import org.hibernate.cfg.Configuration;
 public class App 
 {
     public static void main(String[] args) {
-        Configuration configuration = new Configuration().addAnnotatedClass(org.example.model.Person.class).addAnnotatedClass(Passport.class);
+        Configuration configuration = new Configuration().addAnnotatedClass(org.example.model.Actor.class).addAnnotatedClass(Movie.class);
 
 
         SessionFactory sessionFactory = configuration.buildSessionFactory();
@@ -22,8 +21,7 @@ public class App
         try {
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 1);
-            session.remove(person);
+
 
             session.getTransaction().commit();
 
