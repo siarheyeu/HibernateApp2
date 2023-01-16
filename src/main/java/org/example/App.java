@@ -28,17 +28,16 @@ public class App
             Session session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Movie movie = new Movie("Reservoir dogs", 1992);
-            Actor actor = session.get(Actor.class, 1);
 
-            movie.setActors(new ArrayList<>(Collections.singletonList(actor)));
+            Actor actor = session.get(Actor.class, 2);
+            System.out.println(actor.getMovies());
 
-            actor.getMovies().add(movie);
+            Movie movieToRemove = actor.getMovies().get(0);
 
-            session.save(movie);
+            actor.getMovies().remove(0);
+            movieToRemove.getActors().remove(actor);
 
-
-            session.getTransaction().commit();
+             session.getTransaction().commit();
 
 
         }

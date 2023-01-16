@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f204997e-aeef-4801-9a26-d97e0b56deb1" name="Changes" comment="Relation Many-To-Many in Hibernate - the new movie for the actor">
+    <list default="true" id="f204997e-aeef-4801-9a26-d97e0b56deb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <updated>1673622046859</updated>
       <workItem from="1673622049244" duration="10804000" />
       <workItem from="1673694580442" duration="791000" />
-      <workItem from="1673885312272" duration="6937000" />
+      <workItem from="1673885312272" duration="8145000" />
     </task>
     <task id="LOCAL-00001" summary="Relation One-To-One in Hibernate">
       <created>1673632297554</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673898017273</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Relation Many-To-Many in Hibernate - the new movie for the actor">
+      <created>1673898429315</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898429315</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
     <MESSAGE value="Relation Many-To-Many in Hibernate -2" />
     <MESSAGE value="Relation Many-To-Many in Hibernate - base" />
     <MESSAGE value="Relation Many-To-Many in Hibernate - list of actors for the film" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relation Many-To-Many in Hibernate - list of actors for the film" />
+    <MESSAGE value="Relation Many-To-Many in Hibernate - the new movie for the actor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relation Many-To-Many in Hibernate - the new movie for the actor" />
   </component>
 </project>
